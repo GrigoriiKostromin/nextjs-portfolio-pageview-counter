@@ -1,8 +1,11 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+
+import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import { Inter } from "next/font/google";
+
+
 
 export const metadata: Metadata = {
   title: {
@@ -14,8 +17,8 @@ export const metadata: Metadata = {
     title: "chronark.com",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    url: "greech.de",
+    siteName: "greech.de",
     images: [
       {
         url: "https://chronark.com/og.png",

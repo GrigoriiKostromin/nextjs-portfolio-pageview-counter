@@ -1,5 +1,5 @@
 "use client";
-import { FaSpotify,FaApple, FaYoutube } from "react-icons/fa";
+import { FaSpotify,FaApple, FaYoutube, FaTwitter, FaInstagram, FaTiktok } from "react-icons/fa";
 import React from "react";
 import Particles from "./components/particles";
 
@@ -13,21 +13,41 @@ import { Card } from "./components/card";
 const socials = [
 	{ 
 		icon: <FaSpotify size={25 }/>,
-		href: "https://twitter.com/chronark_",
+		href: "https://open.spotify.com/artist/5KgEsZFmxbGioxdJuWc4fV?si=7eUE2_e1RoORT2xrtnX3Lw",
 		label: "Spotify",
 		handle: "GREECH",
 	},
 	{
 		icon: <FaApple size={25} />,
-		href: "mailto:dev@chronark.com",
+		href: "https://music.apple.com/de/artist/greech/1819254709?l=en-GB",
 		label: "Apple Music",
 		handle: "GREECH",
 	},
 	{
 		icon: <FaYoutube size={25} />, 
-		href: "https://github.com/chronark",
+		href: "https://www.youtube.com/channel/UChnGY8UsMmwqDCsscXt75gA",
 		label: "Youtube Music",
 		handle: "GREECH",
+	},
+  
+  
+];
+
+const socials_media = [
+	{ 
+		icon: <FaTwitter size={20 }/>,
+		href: "dd",
+		
+	},
+	{
+		icon: <FaInstagram size={20} />,
+		href: "ff",
+		
+	},
+	{
+		icon: <FaTiktok size={20} />, 
+		href: "gg",
+		
 	},
   
   
@@ -48,7 +68,7 @@ export default function Home() {
         GREECH
       </h1>
 
-      <div className="w-full max-w-5xl mt-12 px-4">
+      <div className="w-full max-w-5xl mt-12 px-4 ">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:gap-16">
           {socials.map((s) => (
             <Card key={s.label}>
@@ -80,11 +100,26 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <div className="text-sm text-zinc-400 ">
-            <p>Welcome to my digital space. I'm Greech - music producer, creative mind, and tech enthusiast.</p>
-            <p>This site is a collection of my current music projects. You can explore my latest releases. </p>
-            <p>I'm glad you're here</p>
+            <p>Welcome to my digital space. I'm Greech - music producer, creative mind, and tech enthusiast.
+            This site is a collection of my current music projects. You can explore my latest releases. 
+            I'm glad you're here</p>
         </div>
+
+        <div className="flex justify-center gap-7 mt-8">
+          {socials_media.map((s2, index) => (
+            <Link 
+              key={index}
+              href={s2.href}
+              target="_blank"
+              className="flex items-center justify-center w-10 h-10 text-sm duration-300 border rounded-full text-zinc-200 hover:text-white hover:bg-zinc-900 border-zinc-500 hover:border-zinc-200"
+            >
+              {s2.icon}
+            </Link>
+          ))}
       </div>
+      </div>
+          
+      
     
     </div>
     
@@ -93,5 +128,4 @@ export default function Home() {
   );
 
 }
-
 

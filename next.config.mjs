@@ -2,12 +2,14 @@ import { withContentlayer } from "next-contentlayer";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	output: "export",
+	distDir: "out", 
 	pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 	experimental: {
 	  mdxRs: true,
 	},
-	output: "export",     
-	distDir: "out",       
+	    
+	     
   };
 
 export default withContentlayer(nextConfig);

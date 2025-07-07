@@ -15,19 +15,19 @@ const socials = [
 		icon: <FaSpotify size={25 }/>,
 		href: "https://open.spotify.com/artist/5KgEsZFmxbGioxdJuWc4fV?si=7eUE2_e1RoORT2xrtnX3Lw",
 		label: "Spotify",
-		handle: "GREECH",
+		handle: "greech.wav",
 	},
 	{
 		icon: <FaApple size={25} />,
 		href: "https://music.apple.com/de/artist/greech/1819254709?l=en-GB",
 		label: "Apple Music",
-		handle: "GREECH",
+		handle: "greech.wav",
 	},
 	{
 		icon: <FaYoutube size={25} />, 
 		href: "https://www.youtube.com/channel/UChnGY8UsMmwqDCsscXt75gA",
 		label: "Youtube Music",
-		handle: "GREECH",
+		handle: "greech.wav",
 	},
   
   
@@ -36,17 +36,17 @@ const socials = [
 const socials_media = [
 	{ 
 		icon: <FaTwitter size={20 }/>,
-		href: "dd",
+		href: "https://x.com/greech_wav",
 		
 	},
 	{
 		icon: <FaInstagram size={20} />,
-		href: "ff",
+		href: "https://www.instagram.com/greech.wav/",
 		
 	},
 	{
 		icon: <FaTiktok size={20} />, 
-		href: "gg",
+		href: "https://www.tiktok.com/@greech.wav",
 		
 	},
   

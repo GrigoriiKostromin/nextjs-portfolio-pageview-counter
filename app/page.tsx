@@ -13,19 +13,19 @@ import { Card } from "./components/card";
 const socials = [
 	{ 
 		icon: <FaSpotify size={25 }/>,
-		href: "https://open.spotify.com/artist/5KgEsZFmxbGioxdJuWc4fV?si=7eUE2_e1RoORT2xrtnX3Lw",
+		href: "https://open.spotify.com/artist/3fJLeaULZMkvJIuCyUamdn?si=XL_oyC5_R_usNl-hDYvGaA",
 		label: "Spotify",
 		handle: "greech.wav",
 	},
 	{
 		icon: <FaApple size={25} />,
-		href: "https://music.apple.com/de/artist/greech/1819254709?l=en-GB",
+		href: "https://music.apple.com/de/artist/greech-wav/1826562108",
 		label: "Apple Music",
 		handle: "greech.wav",
 	},
 	{
 		icon: <FaYoutube size={25} />, 
-		href: "https://www.youtube.com/channel/UChnGY8UsMmwqDCsscXt75gA",
+		href: "https://music.youtube.com/channel/UC6p4eF44Pr33buWa2K5EZGg?si=9kcydsZJrs2rbA0-",
 		label: "Youtube Music",
 		handle: "greech.wav",
 	},

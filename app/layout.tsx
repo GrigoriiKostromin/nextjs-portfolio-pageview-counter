@@ -9,7 +9,7 @@ import { Inter } from "next/font/google";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
+    default: "greech.wav",
     template: "%s | chronark.com",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
@@ -19,13 +19,7 @@ export const metadata: Metadata = {
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "greech.de",
     siteName: "greech.de",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    
     locale: "en-US",
     type: "website",
   },

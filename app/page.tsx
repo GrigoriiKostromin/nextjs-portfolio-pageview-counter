@@ -65,7 +65,7 @@ export default function Home() {
         quantity={100}
       />
       <h1 className="mt-16 py-10 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        GREECH
+        GREECH.WAV
       </h1>
 
       <div className="w-full max-w-5xl mt-12 px-4 ">

@@ -4,7 +4,7 @@ import { withContentlayer } from "next-contentlayer";
 const nextConfig = {
 	output: "export",
 	trailingSlash: true,
-	
+	images: { unoptimized: true },
 	distDir: "out", 
 	pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 	experimental: {

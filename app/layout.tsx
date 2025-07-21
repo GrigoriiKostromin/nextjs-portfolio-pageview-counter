@@ -14,10 +14,10 @@ export const metadata: Metadata = {
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
-    title: "chronark.com",
+    title: "greech.wav",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "greech.de",
+      "This is a linktree for my music",
+    url: "https://greech.vercel.app",
     siteName: "greech.de",
     
     locale: "en-US",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
       "max-video-preview": -1,
-      "max-image-preview": "large",
+      
       "max-snippet": -1,
     },
   },

@@ -10,9 +10,9 @@ import { Inter } from "next/font/google";
 export const metadata: Metadata = {
   title: {
     default: "greech.wav",
-    template: "%s | chronark.com",
+    template: "%s | greech.wav",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "This is a linktree for my music",
   openGraph: {
     title: "greech.wav",
     description:

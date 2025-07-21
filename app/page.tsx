@@ -64,7 +64,7 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in hidden sm:block"
         quantity={100}
       />
-      <h1 className="mt-16 py-10 px-0.5 z-10 text-7xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <h1 className="mt-16 py-10 px-0.5 z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         GREECH.WAV
       </h1>
 
